@@ -1,0 +1,36 @@
+2024-01-11 12:07:45.647  INFO 16864 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_311 on LAPTOP-AN0CALCD with PID 16864 (D:\study\workSpace\final_workSpace\SpringBoot\demo\target\classes started by HP in D:\study\workSpace\final_workSpace\SpringBoot\demo)
+2024-01-11 12:07:45.647  INFO 16864 --- [main] com.example.demo.DemoApplication         : The following profiles are active: dev
+2024-01-11 12:07:46.491  INFO 16864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-01-11 12:07:46.498  INFO 16864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-11 12:07:46.623  INFO 16864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120 ms. Found 1 JPA repository interfaces.
+2024-01-11 12:07:46.623  INFO 16864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-01-11 12:07:46.623  INFO 16864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-11 12:07:46.639  INFO 16864 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.IHospitalDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2024-01-11 12:07:46.639  INFO 16864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-01-11 12:07:47.483  INFO 16864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2024-01-11 12:07:47.498  INFO 16864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-11 12:07:47.498  INFO 16864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-01-11 12:07:47.563  INFO 16864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-11 12:07:47.563  INFO 16864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1869 ms
+2024-01-11 12:07:47.860  INFO 16864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-11 12:07:47.917  INFO 16864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-01-11 12:07:48.110  INFO 16864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-01-11 12:07:48.220  INFO 16864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-11 12:07:48.235  WARN 16864 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2024-01-11 12:07:48.407  INFO 16864 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2024-01-11 12:07:48.423  INFO 16864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-11 12:07:48.439  INFO 16864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2024-01-11 12:07:48.439  WARN 16864 --- [main] org.hibernate.dialect.Oracle9Dialect     : HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2024-01-11 12:07:48.439  WARN 16864 --- [main] org.hibernate.dialect.OracleDialect      : HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2024-01-11 12:08:19.531  INFO 16864 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-11 12:08:19.531  INFO 16864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-11 12:08:20.610  WARN 16864 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-11 12:08:21.347  INFO 16864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2024-01-11 12:08:21.427  INFO 16864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2024-01-11 12:08:21.428  INFO 16864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-11 12:08:21.428  INFO 16864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-01-11 12:08:21.430  INFO 16864 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-01-11 12:08:21.430  INFO 16864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 83 ms
+2024-01-11 12:08:21.446  INFO 16864 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/manage'
+2024-01-11 12:08:21.493  INFO 16864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2024-01-11 12:08:21.493  INFO 16864 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 36.214 seconds (JVM running for 36.665)
