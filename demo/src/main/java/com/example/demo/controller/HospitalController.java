@@ -58,7 +58,7 @@ public class HospitalController {
 	public void  getData1() {
 		LOGGER.info("Hospital Details Inside Get Data :");
  
-		System.out.println("Sumit Kumar Singh9");
+		System.out.println("Sumit Kumar Singh9999999");
 	        System.out.println("Sumit Kumar Singh34");
  
 		System.out.println("Sumit Kumar Singh90");
