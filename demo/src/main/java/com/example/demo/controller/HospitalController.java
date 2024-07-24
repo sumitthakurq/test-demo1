@@ -64,7 +64,7 @@ public class HospitalController {
 		System.out.println("Sumit Kumar Singh90");
 	        System.out.println("Sumit Kumar Singh44");
 		System.out.println("Sumit Kumar Singh");
-	        System.out.println("Sumit Kumar Singh2");
+	        System.out.println("Sumit Kumar Singh22222222");
  
 	}
 	// @RequestMapping(value="/saveRecord" , method=RequestMethod.POST, consumes = {MediaType.APPLICATION_JSON_VALUE }, produces =  {MediaType.APPLICATION_JSON_VALUE })
