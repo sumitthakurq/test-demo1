@@ -57,8 +57,15 @@ public class HospitalController {
 	@GetMapping("/getData1")
 	public void  getData1() {
 		LOGGER.info("Hospital Details Inside Get Data :");
+ 
 		System.out.println("Sumit Kumar Singh91");
 	        System.out.println("Sumit Kumar Singh34");
+ 
+		System.out.println("Sumit Kumar Singh90");
+	        System.out.println("Sumit Kumar Singh44");
+		System.out.println("Sumit Kumar Singh");
+	        System.out.println("Sumit Kumar Singh20");
+ 
 	}
 	// @RequestMapping(value="/saveRecord" , method=RequestMethod.POST, consumes = {MediaType.APPLICATION_JSON_VALUE }, produces =  {MediaType.APPLICATION_JSON_VALUE })
 	@PostMapping(value="/saveRecord")//, consumes = {MediaType.APPLICATION_JSON_VALUE }, produces =  {MediaType.APPLICATION_JSON_VALUE })
